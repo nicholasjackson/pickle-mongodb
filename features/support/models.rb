@@ -1,6 +1,3 @@
-require 'mongoid'
-require 'factory_girl'
-
 class Person
   include Mongoid::Document
 
