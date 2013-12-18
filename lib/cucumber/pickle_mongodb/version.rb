@@ -1,5 +1,7 @@
 module Cucumber
   module PickleMongoDB
-    VERSION = "0.1"
+    NAME = "pickle-mongodb"
+    FOLDER = "cucumber/pickle_mongodb"
+    VERSION = "0.3"
   end
 end

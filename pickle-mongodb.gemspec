@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "cucumber/pickle_mongodb/version"
 
 Gem::Specification.new do |s|
-  s.name        = "pickle-mongodb"
+  s.name        = Cucumber::PickleMongoDB::NAME
   s.version     = Cucumber::PickleMongoDB::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Nic Jackson"]
@@ -20,6 +20,6 @@ Gem::Specification.new do |s|
   s.add_dependency              'mongoid', '~> 3.1.6'
   s.add_dependency              'factory_girl', '~> 4.3.0'
 
-  s.files = ["lib/cucumber/pickle_mongodb.rb","lib/cucumber/pickle_mongodb/finders.rb"]
+  s.files = ["lib/cucumber/pickle_mongodb.rb","lib/cucumber/pickle_mongodb/finders.rb","lib/cucumber/pickle_mongodb/pickle_steps.rb","lib/cucumber/pickle_mongodb/version.rb"]
   s.license = 'MIT'
 end
