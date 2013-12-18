@@ -1,5 +1,3 @@
-#require 'cucumber/pickle_mongodb/pickle_steps.rb'
-
 Before do |scenario|
 	Mongoid.purge! #Clear the mongo database before the tests	
 end
