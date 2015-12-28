@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = Cucumber::PickleMongoDB::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Nic Jackson"]
-  s.email       = ["nicholas.jackson@marks-and-spencer.com"]
+  s.email       = ["jackson.nic@gmail.com"]
   s.homepage    = "https://github.com/nicholasjackson/pickle-mongodb"
   s.summary     = %q{Cucumber steps to easily integrate pickle with MongoDB}
   s.description = %q{Pickle MongoDB allows you to write BDD steps to interact with your MongoDB database, you can create and interrogate the database using the handy built in steps}
